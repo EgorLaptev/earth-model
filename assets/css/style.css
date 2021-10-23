@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-size: 18px;
+    font-family: "Javanese Text", sans-serif;
+}
+
+body * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    color: inherit;
+}
+
+button {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: dodgerblue;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    font-family: "Javanese Text";
+}
+
+.intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#earth {
+    display: block;
+}
+
+.intro__wrapper {
+    position: relative;
+    padding: 50px 75px;
+}
+
+.intro__title {
+    font-size: 78px;
+}
+
+.intro__text {
+    font-size: 21px;
+}
+
+.intro__learn-more {
+    margin-top: 50px;
+    padding: 0 25px;
+    background: #FF5F5F;
+
+}
